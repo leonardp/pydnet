@@ -8,7 +8,7 @@ import time
 import cv2
 import numpy as np
 
-import pydnet
+import darknet
 
 
 def parser():

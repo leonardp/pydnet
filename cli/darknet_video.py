@@ -8,7 +8,7 @@ import time
 import argparse
 from threading import Thread, enumerate
 from queue import Queue
-import pydnet
+import darknet
 
 
 def parser():
