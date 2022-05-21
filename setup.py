@@ -9,7 +9,7 @@ setup(
     author_email="pollak@tr-host.de",
     description="python interface for AlexeyAB/darknet",
     # Modules to import from other scripts:
-    packages=find_packages("src/"),
+    packages=find_packages(exclude=['cli', 'test']),
     # Executables
     scripts=["cli/darknet_images.py"],
 )

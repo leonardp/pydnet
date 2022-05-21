@@ -1,6 +1,6 @@
 { lib
 , python3Packages
-, darknet
+#, darknet
 , fetchgit
 }:
 
@@ -18,9 +18,9 @@ buildPythonPackage rec {
   #  hash = "sha256-BEHRvPaqnY1JtJNHn23kcDW5xXxQ3aLo1hzT27f0gP0=";
   #};
 
-  postPatchPhase = ''
-    sed -i 's|find_library("darknet")|"${darknet}/lib/libdarknet.so"|' src/pydnet/pydnet.py
-'';
+  #postPatchPhase = ''
+  #  sed -i 's|find_library("darknet")|"${darknet}/lib/libdarknet.so"|' src/pydnet/pydnet.py
+  #'';
 
   doCheck = false;
 
