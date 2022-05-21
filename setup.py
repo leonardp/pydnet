@@ -11,5 +11,5 @@ setup(
     # Modules to import from other scripts:
     packages=find_packages(),
     # Executables
-    scripts=["darknet_images.py"],
+    scripts=["cli/darknet_images.py"],
 )
