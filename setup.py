@@ -12,5 +12,5 @@ setup(
     package_dir={'': 'src'},
     packages=find_packages(where='src'),
     # Executables
-    scripts=["cli/darknet_images.py", "cli/darknet_images.py"],
+    scripts=["cli/darknet_images.py", "cli/darknet_video.py"],
 )
